@@ -1,0 +1,120 @@
+body {
+ background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("1.jpg");
+	margin: 0px;
+} 
+
+ul{
+	list-style-type: none;
+	 margin:0px 0px 0px 90px;
+	padding:0px;
+	font-family: sans-serif;
+	background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.8));;
+}
+
+ul::after{
+	content:'';
+	clear:both;
+	display:block;
+}
+
+nav>ul>li{
+	margin-top:5px;
+	float:left;
+	margin-left:30px;
+	position: relative;
+}
+
+ul li a{
+	display: block;
+	padding: 20px;
+	color: aqua;
+	text-decoration: none;
+}
+
+a:hover{
+	background:#444444;
+	}
+
+.dropdown{
+	position: relative;
+}
+
+.dropdown-content{
+	display: none;
+	position: absolute;
+	min-width:200px;
+	background: #495090;
+}
+
+.dropdown:hover .dropdown-content{
+	display: block;
+	font-size: 20px;
+}
+
+.dropdown-content a:hover{
+	background: #324343;
+	font-size: 22px;
+}
+
+ 
+.heading-list 
+{
+    list-style:square;
+    margin: 20px 50px 20px 350px;
+	padding:10px 10px 10px 10px;
+
+}
+.heading-list li
+{
+    display: inline-block; 
+}
+
+.heading-list li a
+{
+	color:565656;
+    text-decoration:none;
+    padding:5px 20px;
+    font-family:"Colonna MT";
+    font-size:25px;
+}
+
+.heading-list li:hover
+{
+    border:2.1px solid skyblue;
+	background-color:black;
+}
+
+.heading-list li
+{
+   	padding:5px;
+}
+.heading-list li a:hover{
+	color:lime;
+}
+
+.heading-list li a:focus
+{
+    background-color:deepskyblue;
+    transition: all 1.4s ease-in;
+}
+
+.heading1{
+	margin-top:0px;
+	color: aliceblue;
+	font-family: monospace;
+	font-size: 22px;
+	text-align: center;
+	position:sticky;
+	
+}
+
+
+.logo img
+{
+	position:absolute;
+    width:150px;
+    height: auto;
+    float: left;
+    margin-top:20px;
+    margin-left:90px;
+}
